@@ -1,0 +1,13 @@
+00 78.5 scattered-thunderstorms
+01 78.5 scattered-thunderstorms
+02 77 isolated-thunderstorms
+03 77 isolated-thunderstorms
+04 76 isolated-thunderstorms
+05 77 -
+06 77 -
+07 77 -
+08 78 50%-light-rain
+09 78.77 50%-light-rain
+10 79 40%-light-rain
+11 80 40%-light-rain
+12 82 20%-light-rain
