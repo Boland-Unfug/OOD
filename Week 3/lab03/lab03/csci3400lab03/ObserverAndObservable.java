@@ -27,7 +27,6 @@ class PropertyChangedEvent{
 		this.propertyName = propertyName;
 		this.newValue = newValue;
 	}
-	
 }
 
 

@@ -46,17 +46,30 @@ public class DemoObserverPattern {
 		
 		
 		MyFileReader myFileReader = new MyFileReader();
-		// When grading, you may need to change the path from lab03\\lab03\\ to lab03\\
+
+		// When grading, you may need to change the path, just right click on the file and copy the relative path
 		List<String> data = myFileReader.readFile("Week 3\\lab03\\lab03\\weatherDatabase.txt");
-		
+
+		// create a new weather object
 		Weather currentWeather = new Weather("Sarasota");
-		
-		Observable observable = new Observable();
-		
+
+		// // create an observer for the weather
 		// Observer weaObs =  new WeatherObserver("Weather-observer-of-Sarasota");
-		// currentWeather.subscribe(weaObs)
-		// FieldObserver tempObserver =  new FieldObserver("Temperature Observer", "temperature");
-		// currentWeather.subscribe(tempObserver);
+
+		// currentWeather.subscribe(weaObs);
+
+		// System.out.println("The current weather is: " + currentWeather + "\n");
+		// System.out.println("The current temperature is: " + currentWeather.getTemperature() + "\n");
+		// System.out.println("The current precipitation is: " + currentWeather.getPrecipitation() + "\n");
+		// System.out.println("The current hour is: " + currentWeather.getHour() + "\n");
+
+
+		// create an observer for the temperature
+		// Observer tempObs =  new TemperatureObserver("Temperature-observer-of-Sarasota");
+		// currentWeather.subscribe(tempObs);
+		
+		FieldObserver tempObserver =  new FieldObserver("Temperature Observer", "temperature");
+		currentWeather.subscribe(tempObserver);
 		/* FieldObserverX precipObserverX = 
 		new FieldObserverX("Precipitation-Observer", "precipitation", "light-rain");
 				currentWeather.subscribe(precipObserverX);*/

@@ -7,7 +7,7 @@ package csci3400lab03;
  * @version 1.1
  */
 
-public class Weather{
+public class Weather extends Observable{
 
 	
 	private Integer hour; 
@@ -37,9 +37,26 @@ public class Weather{
 		
 	}
 	
-	public void setTemperature(Double temp) {   this.temperature = temp; }
-	public void setHour(Integer hr) {  this.hour = hr; }
-	public void setPrecipitation(String precip) { this.precipitation = precip; }
+	public void setTemperature(Double temp) {   
+		if (temp != this.temperature) {
+			notifyAll("temperature", temp);
+		}
+		this.temperature = temp; 
+	}
+	public void setHour(Integer hr) {
+		if (hr != this.hour) {  
+		notifyAll("hour", hr);
+		}
+		this.hour = hr; 
+	}
+	
+	public void setPrecipitation(String precip) { 
+		if (precip != this.precipitation) {
+		notifyAll("precipitation", precip);
+		}
+		
+		this.precipitation = precip; 
+	}
 	
 	public Double getTemperature() { return this.temperature;}
 	public Integer getHour() { return this.hour;}
