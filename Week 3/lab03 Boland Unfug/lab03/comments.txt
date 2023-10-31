@@ -1,0 +1,74 @@
+The current weather is: This is the weather of Sarasota
+
+
+The current temperature is: 0.0
+
+The current precipitation is: -
+
+The current hour is: -1
+
+This is the general weather of Sarasota. They values are wierd because they have not been updated, these are the filler values.
+
+1.
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in hour to 0
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in temperature to 78.5
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in precipitation to scattered-thunderstorms
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in hour to 1
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in temperature to 78.5
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in precipitation to scattered-thunderstorms
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in hour to 2
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in temperature to 77.0
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in precipitation to isolated-thunderstorms
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in hour to 3
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in temperature to 77.0
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in precipitation to isolated-thunderstorms
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in hour to 4
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in temperature to 76.0
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in precipitation to isolated-thunderstorms
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in hour to 5
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in temperature to 77.0
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in precipitation to -
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in hour to 6
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in temperature to 77.0
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in precipitation to -
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in hour to 7
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in temperature to 77.0
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in precipitation to -
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in hour to 8
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in temperature to 78.0
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in precipitation to 50%-light-rain
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in hour to 9
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in temperature to 78.77
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in precipitation to 50%-light-rain
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in hour to 10
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in temperature to 79.0
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in precipitation to 40%-light-rain
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in hour to 11
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in temperature to 80.0
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in precipitation to 40%-light-rain
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in hour to 12
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in temperature to 82.0
+Weather Observer Weather-observer-of-Sarasota has been notified of the change in precipitation to 20%-light-rain
+
+
+2.
+Field Observer Temperature Observer has been notified of the change in temperature to 78.5
+Field Observer Temperature Observer has been notified of the change in temperature to 78.5
+Field Observer Temperature Observer has been notified of the change in temperature to 77.0
+Field Observer Temperature Observer has been notified of the change in temperature to 77.0
+Field Observer Temperature Observer has been notified of the change in temperature to 76.0
+Field Observer Temperature Observer has been notified of the change in temperature to 77.0
+Field Observer Temperature Observer has been notified of the change in temperature to 77.0
+Field Observer Temperature Observer has been notified of the change in temperature to 77.0
+Field Observer Temperature Observer has been notified of the change in temperature to 78.0
+Field Observer Temperature Observer has been notified of the change in temperature to 78.77
+Field Observer Temperature Observer has been notified of the change in temperature to 79.0
+Field Observer Temperature Observer has been notified of the change in temperature to 80.0
+Field Observer Temperature Observer has been notified of the change in temperature to 82.0
+
+3.
+Field Observer Precipitation-Observer has been notified of the change in precipitation to 50%-light-rain
+Field Observer Precipitation-Observer has been notified of the change in precipitation to 50%-light-rain
+Field Observer Precipitation-Observer has been notified of the change in precipitation to 40%-light-rain
+Field Observer Precipitation-Observer has been notified of the change in precipitation to 40%-light-rain
+Field Observer Precipitation-Observer has been notified of the change in precipitation to 20%-light-rain

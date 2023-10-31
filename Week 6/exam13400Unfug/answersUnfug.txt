@@ -1,0 +1,36 @@
+a) For each case, give an example of when 
+• You prefer a class adapter over an object adapter. 
+• You choose not to implement/use the decorator pattern. 
+b) State  (with  proper  examples)  the  differences  between  the  Abstract  Factory  and  Factory 
+Method Pattern. 
+c) Provide a concrete example of how good software design can benefit a software 
+development team.
+
+a.
+1.
+I would use class adapters when I need an interface to override a classes features, and an object adapter when I need to extend the behaviours of an object.
+Example: Computers
+If I need a specific type of computer, say windows or mac, I would use a class adapter to override the features of the computer to be specific to the type of computer I need.
+If I am just adding features, such as downloading new software, I would use an object adapter to add the feature to the computer.
+
+2.
+I would not implement the decorator pattern in three situations:
+    I do not need to modify an object after creation,
+    there is a lot of features that need to be added to the object.
+    There are many objects that are similar, but not the same.
+Example: A store
+If I am selling food, All of the food is similar in that they have prices and names,
+but since each one is different, I would need a decorator for each one, which is not practical.
+
+b.
+The differences between the Abstract Factory and Factory Method Pattern are:
+    The factory method pattern defines the factory that will make objects, without defining the objects themselves.
+    The abstract factory pattern defines the objects that will be made, without defining the factory that will make them.
+Example: Factories
+If I know I want to produce Apple producs, I would use the abstract factory pattern to define the producs, and then build factories for them.
+If I know I want to build computers, but I don't know what kind, I would use the factory method pattern to define a factory that makes general electronics, and then define subfactories that build the specific products.
+
+c.
+Good software design principles, such as SOLID, make code easier to read, maintain, test, and modify.
+for example, following the single responsibility principle, each class should only have one responsibility, 
+which is much easier to read and maintain than a large collection of connected code.

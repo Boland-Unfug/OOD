@@ -1,3 +1,10 @@
+/**
+ * @author fahmidahamid
+ * @author Boland Unfug
+ * @date September 21 2023
+ * @version 1.1
+ */
+
 package lab04starter;
 
 import robot.*;

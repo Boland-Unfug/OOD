@@ -1,2 +1,7 @@
 1. Initial issues the team would face include learning the names, functions, and returns of the classes.
 They might also struggle with testing the robots, as it is not said what the robots are supposed to do specifically.
+
+2. We are breaking the rule about being extensible, as we are not using inheritance.
+If someone wants to add a bot, they would have to add it to the list of bots manually.
+
+3

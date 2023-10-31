@@ -1,0 +1,22 @@
+1. Classes:
+    - Shape
+    - Crayon box
+    - Drawing book
+    - Grandma
+    - Dad
+    - Alice
+2. Interfaces:
+    - Drawable, for the shapes
+    - Observable, for alice, the crayon box, and the drawing book
+3. Inheritance:
+    - Circle, triangle, rectangle, and hexagon inherit from shape
+4. Compositions:
+    - Supplies are composed of crayons and sheets of paper
+5. Decorator pattern:
+    - You can use a shape decorator pattern to add colors and sizes
+6. Observer pattern:
+    - Observers would be her parents
+    - Observable would be alice, the crayon box, and the drawing book
+7. Factory pattern:
+    - You can have a shape factory
+
