@@ -1,2 +1,2 @@
 The odd length words are: 
-pleanse, enter, 
+a, 
