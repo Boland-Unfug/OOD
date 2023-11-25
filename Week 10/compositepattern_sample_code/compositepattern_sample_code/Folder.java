@@ -60,12 +60,23 @@ public class Folder extends Component{
 		this.setSize(currentSize);
 		return currentSize;
 	}
+
+	public int getCount()
+	{
+		int currentCount = 0;
+		for (File f : files)
+			currentCount += f.getCount();
+		for (Folder f: folders)
+			currentCount += f.getCount();
+		this.setCount(currentCount);
+		return currentCount;
+	}
 	
 	public String toString()
 	{
 		StringBuilder sb = new StringBuilder();
 		sb.append("Folder: ").append(this.getName()).append(", size: ").
-					append(this.getSize()).append("\n").
+					append(this.getSize()).append(", count: ").append(this.getCount()).append("\n").
 						append(String.join("", Collections.nCopies(50, "-"))).append("\n");
 		
 		Iterator fileIterator = files.iterator();

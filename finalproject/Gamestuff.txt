@@ -1,0 +1,4 @@
+Spells: the game
+Add a discard command
+Add discarding from deck, hand, when cards are played
+Add the ability for card effects to actually happen??? - it happens in game class

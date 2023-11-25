@@ -1,5 +1,7 @@
 {
+    "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
-        "."
-    ]
+        "finalproject"
+    ],
+    "java.debug.settings.showHex": false
 }
