@@ -2,6 +2,8 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// Request Class
+
 public class Game {
     private List<Player> players;
     private Player player;

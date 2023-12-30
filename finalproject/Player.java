@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Request Class
 public class Player {
     private int health = 10;
     private String name;
